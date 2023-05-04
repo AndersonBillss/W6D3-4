@@ -1,0 +1,149 @@
+body, h1, h2, h3, div, p, ul, ol, li, a ::placeholder{
+    font-size: 20px;
+    font-style: sans-serif;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    font-weight: normal;
+}
+body{
+    display: block;
+    background-color: #ddd;
+}
+h3 {
+    padding: 48px 24px 24px 24px;
+    color:grey;
+    font-weight:200;
+    background-color: white;
+}
+h1 {
+    padding: 0 24px 48px 24px;
+    font-size: 48px;
+    background-color: white;
+
+}
+.title {
+    margin: 0 48px 0 48px;
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    z-index: 5;
+}
+.content{
+    background-color: #eee;
+    margin: 0 48px 0 48px;
+    padding: 253px 0 86px 0;
+    padding: auto;  
+}
+.background {
+    position: fixed;
+    top:0%;
+    left:48px;
+    right: 48px;
+    padding-bottom: 100%;
+    background-color: #eee;
+    color: #eee;
+    z-index: -1;
+}
+
+
+.input{
+    margin: 0 48px 0 48px;
+    padding:24px;
+    position:fixed;
+    bottom: 0%;
+    left:0px;
+    right:0px;
+    background-color: white;
+}
+.input input {
+    border: 1px grey solid;
+    border-radius:5px;
+    margin-right: 8px;
+    padding: 7px;
+    font-size: 16px;
+}
+.submit{
+    color:cadetblue;
+    background-color: white;
+    font-size: 24px;
+    float: right;
+}
+.submit:hover {
+    cursor: pointer;
+}
+
+
+.hidden {
+    display:none;
+}
+.editText {
+    border: 1px grey solid;
+    right:24px;
+    border-radius:5px;
+    margin-right: 8px;
+    padding: 7px;
+    font-size: 16px;
+}
+.editSubmit {
+    color:cadetblue;
+    font-size: 24px;
+    float: right;
+}
+.editSubmit:hover {
+    cursor: pointer;
+}
+
+
+
+.post {
+    margin: 24px 24px 0 24px;
+    background-color: #ffffff96;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+.mainPost {
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    left: 0px;
+    right: 0px;
+    flex: 100%;
+
+}
+.postStuff {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+.postName {
+    text-align: left;
+}
+.postOptions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    float: right;
+}
+.postOptions div {
+    margin-right: 24px;
+    color: cadetblue;
+    cursor: pointer;
+
+}
+.postComment {
+    font-size: 48px;
+}
+img {
+    width: 96px;
+    height: 96px;
+    margin-right: 16px;
+}
